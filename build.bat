@@ -10,7 +10,7 @@ REM 包含的头文件路径
 set includepaths=/I %~dp0headers
 
 REM 待编译的源文件
-set scrfiles=%~dp0scr\main.cpp %~dp0scr\file1.cpp %~dp0scr\file2.cpp
+set scrfiles=%~dp0src\main.cpp %~dp0src\file1.cpp %~dp0src\file2.cpp
 
 REM 链接参数
 set linkerflags=/OUT:%~dp0bin\main.exe

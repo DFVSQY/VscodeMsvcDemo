@@ -1,7 +1,7 @@
 @echo off
 
 REM 初始化编译环境，目标机器64位
-call "F:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\Build\vcvarsall.bat" x64     
+call "F:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" x64     
 
 REM 编译参数
 set compilerflags=/Od /Zi /EHsc /W4
